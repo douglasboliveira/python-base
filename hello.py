@@ -24,7 +24,7 @@ __author__="Douglas B. de Oliveira"
 __license__="Unlicense"
 
 
-current_language = os.getenv("LANG")[:5]
+current_language = os.getenv("LANG", "en_US")[:5]
 msg = "Hello, World!"
 
 if current_language == "pt_BR":
